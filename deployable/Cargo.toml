@@ -1,0 +1,9 @@
+[package]
+name = "deployable"
+version = "0.1.0"
+authors = ["LOU Xun <aquarhead@ela.build>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "1"
+aya = { git="https://github.com/alessandrod/aya", branch="main" }

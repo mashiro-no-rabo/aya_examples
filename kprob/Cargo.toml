@@ -1,0 +1,11 @@
+[package]
+name = "kprob"
+version = "0.1.0"
+authors = ["LOU Xun <aquarhead@ela.build>"]
+edition = "2018"
+
+[dependencies]
+aya-bpf = { git="https://github.com/alessandrod/aya", branch="main" }
+
+[profile.release]
+panic = "abort"
