@@ -9,5 +9,5 @@ fn main() -> anyhow::Result<()> {
 
     program.attach("tcp_connect", 0, None)?;
 
-    Ok(())
+    loop {}
 }
