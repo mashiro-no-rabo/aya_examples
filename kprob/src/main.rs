@@ -19,3 +19,6 @@ static mut CNT: HashMap<u32, u32> = HashMap::with_max_entries(10, 0);
 pub fn tcp_connect(_ctx: ProbeContext) {
     //
 }
+
+#[no_mangle]
+fn __tcp_connect() {}
